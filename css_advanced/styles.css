@@ -1,0 +1,458 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+}
+
+/* Shared background for header and profiles */
+.shared-bg {
+    background-image: url('image\ \(1\).png'); 
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+}
+
+/* Section principale pour "Get schooled" */
+.shared-bg section {
+    position: relative;
+    text-align: center;
+    padding: 200px 20px; 
+}
+
+/* Titre principal ("Get schooled") */
+.shared-bg section h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+/* Sous-texte ("SMILES • GRIN • LAUGH") */
+.shared-bg section p {
+    font-size: 24px;
+    margin: 20px 0 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+/* Bouton ("Register for free") */
+.shared-bg section button {
+    font-size: 20px;
+    padding: 15px 40px;
+    margin-bottom: 60px; 
+    color: white;
+    background-color: #C271FF;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shared-bg section button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Sous-titre ("Learn from the pros") */
+.shared-bg section h2 {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #C271FF;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    color: white;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+/* Profiles Section */
+.shared-bg section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.shared-bg section h2 {
+    color: #C271FF;
+    margin-bottom: 50px;
+    font-size: 36px;
+}
+
+.shared-bg section div {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.shared-bg section div > div {
+    text-align: center;
+    color: white;
+    max-width: 200px;
+}
+
+.shared-bg section div > div img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 0px solid #fff;
+    margin-bottom: 20px;
+}
+
+.shared-bg section div > div h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.shared-bg section div > div p {
+    font-size: 14px;
+    color: #ddd;
+}
+
+.shared-bg {
+    min-height: 100vh; 
+    height: auto; 
+}
+
+/* Section: Quote */
+.quote-section {
+    background-color: #C271FF; 
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 392px; 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Conteneur principal */
+.quote-container {
+    display: flex;
+    align-items: center;
+    gap: 40px; 
+    width: 100%; 
+    max-width: 1200px; 
+    padding: 0 20px; 
+}
+
+/* Image ronde */
+.quote-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 0px solid #fff; 
+}
+
+/* Texte de la citation */
+.quote-content {
+    text-align: left;
+    max-width: 900px; 
+}
+
+.quote-content blockquote {
+    font-style: italic;
+    font-size: 20px;
+    line-height: 1.6;
+    margin: 0 0 10px;
+}
+
+.quote-author {
+
+    
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.quote-role {
+    font-size: 16px;
+    color: #ddd;
+}
+
+/* Section: Video Tutorials */
+.video-section {
+    background-color: #f8f9fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.video-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.video-section .highlight {
+    color: #C271FF; 
+    font-weight: bold;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    max-width: 1440px; 
+    margin: 0 auto;
+}
+
+.video-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+    width: calc(25% - 20px); 
+}
+
+.video-card img.video-thumbnail {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.video-card h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.video-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.video-author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.video-author img.author-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.video-author span {
+    font-size: 14px;
+    color: #C271FF; 
+    font-weight: bold;
+}
+
+.video-info {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #666;
+}
+
+.video-info .rating {
+    color: #C271FF; 
+}
+
+.video-info .duration {
+    color: #C271FF;
+}
+
+/* Section: Free Membership */
+.membership-section {
+    background-color: #071629; 
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.membership-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.membership-section .highlight {
+    color: #C271FF; 
+    font-weight: bold;
+}
+
+.membership-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+    flex-wrap: nowrap; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.membership-item {
+    width: calc(25% - 20px);
+    text-align: center;
+    background-color: #071629; 
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.membership-item .icon {
+    font-size: 50px;
+    color: #C271FF; 
+    margin-bottom: 15px;
+}
+
+.membership-item h3 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.membership-item p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.register-button {
+    background-color: #C271FF; 
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.register-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Section: FAQ */
+.faq-section {
+    background-color: #f8f9fa; 
+    color: #333; 
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.faq-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.faq-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.faq-column {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 48%;
+}
+
+.faq-item {
+    background-color: #f8f9fa; 
+    border-radius: 0px;
+    box-shadow: 0 0px 0x rgba(0, 0, 0, 0);
+    padding: 0px;
+    text-align: left;
+}
+
+.faq-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.faq-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Footer Section */
+.footer-section {
+    background-color: #071629; 
+    color: #fff; 
+    padding: 30px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left .footer-logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.footer-right {
+    display: flex;
+    gap: 20px; 
+}
+
+.footer-icon {
+    text-decoration: none;
+    font-size: 18px; 
+    color: #071629; 
+    display: inline-block;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.footer-icon:hover {
+    transform: scale(1.1); /* Zoom au survol */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); 
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #666;
+}
+
